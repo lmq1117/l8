@@ -19,4 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get("/api/list",[\App\Http\Controllers\TestController::class,"testList"]);
+Route::get("/list",[\App\Http\Controllers\TestController::class,"testList"]);
